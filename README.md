@@ -9,7 +9,7 @@ $ npm install
 ## Launch
 
 ```
-$ npm start
+$ npm run dev
 ```
 
 Browse to [http://localhost:8080]()
