@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf build",
+    "build": "webpack -p",
+    "dev": "npm run clean && npm run build && webpack-dev-server --inline --hot"
   },
   "keywords": [],
   "author": "",
