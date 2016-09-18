@@ -11,6 +11,11 @@ module.exports = {
       {
         test: /\.vue$/,
         loader: 'vue'
+      },
+      {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        exclude: /node_modules|vue\/dist\/|vue-router\/|vue-loader\/|vue-hot-reload-api\//
       }
     ]
   }
