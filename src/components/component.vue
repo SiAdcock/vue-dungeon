@@ -6,8 +6,14 @@
   export default {
     data() {
       return {
-        message: 'Hello 12335'
+        message: 'Hello World'
       };
     }
   }
 </script>
+
+<style>
+  h1 {
+    color: green;
+  }
+</style>
