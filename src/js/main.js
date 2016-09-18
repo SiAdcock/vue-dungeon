@@ -4,8 +4,11 @@ const Vue = require('vue');
 const App = require('../components/component.vue');
 
 new Vue({
-  el: 'body',
+  el: '#mount',
   components: {
     app: App
+  },
+  render(createElement) {
+    return createElement(App);
   }
 });

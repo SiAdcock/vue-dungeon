@@ -7,13 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf build",
     "build": "webpack -p",
-    "dev": "npm run clean && npm run build && webpack-dev-server --inline --hot"
+    "dev": "webpack-dev-server --inline --hot"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue": "^1.0.26"
+    "vue": "^2.0.0-rc.6"
   },
   "devDependencies": {
     "babel-core": "^6.14.0",
@@ -24,7 +24,7 @@
     "css-loader": "^0.25.0",
     "vue-hot-reload-api": "^2.0.6",
     "vue-html-loader": "^1.2.3",
-    "vue-loader": "^8.5.2",
+    "vue-loader": "^9.4.2",
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1"
